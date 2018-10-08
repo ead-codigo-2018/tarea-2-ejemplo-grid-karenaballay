@@ -54,6 +54,7 @@
 @media screen and (max-width: 480px) {
   .container {
     width: 100%;
+    height:auto;
     grid-gap: 1px;
   }
 
@@ -68,41 +69,45 @@
 }
   .navigation {
     width: 100%;
+    height:35%;
     margin: 0px;
     grid-gap: 1px;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
 
  .sidebar {
    width: 100%;
+   height:100%;
    margin: 0px;
    grid-gap: 0px;
    grid-column-start: 1;
    grid-column-end: 4;
-   grid-row-start: 5;
-   grid-row-end: 6;
+   grid-row-start: 3;
+   grid-row-end: 4;
  }
 
   .main {
     width: 100%;
+    height:100%;
     margin: 0px;
     grid-gap: 0px;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
   }
 
   .footer {
   width: 100%;
+  height:35%;
   margin: 0px;
   grid-gap: 0px;
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-row-start: 9;
-  grid-row-end: 10;
+  grid-row-start: 5;
+  grid-row-end: 6;
   }
 }
