@@ -2,12 +2,12 @@
 .container {
   display: grid;
   grid-template-columns: 20% auto 160px;
-  grid-template-rows: 120px 350px 120px;
-  max-width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  grid-auto-rows: 120px 350px 120px;
+  max-width: 1140px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
   grid-gap: 1em; /*espacio entre columnas y filas*/
-  padding: 1em;
   box-sizing:border-box;
 }
 
@@ -15,8 +15,6 @@
 .box {
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-row: 120px;
-  padding: 1em;
   background: #ffb8a2;
 
 }
@@ -25,15 +23,14 @@
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: auto;
-  padding: 1em;
+
   background: #9fc5e8;
 }
 .sidebar {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: auto
-  padding: 1em;
+  grid-row-end: auto;
   background: #b6d7a8;
 }
 
@@ -41,18 +38,15 @@
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: auto
-  padding: 1em;
+  grid-row-end: auto;
   background: #fff2cc;
 }
 
 .footer {
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-template-rows: 1140px;
   grid-row-start: 3;
   grid-row-end: 4;
-  padding: 1em;
   background: #ead1dc;
 }
 
